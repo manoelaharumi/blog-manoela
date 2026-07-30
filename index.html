@@ -1,47 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Padaria Digital</title>
-        <style>
-          header {
-              background-color: #F6F080;
-              color:#000000 ;
-              text-align: center;
-              max-height: 800px;
-              margin: 0 auto;
-              padding: 16px;
-
-          }  
-            main{
-              background-color: #000000;
-              color:#F6F080;
-              max-height: 800px;
-              margin: 0 auto;
-              padding: 16px;
-
-          }
-          img{
-            width: 80px;
-            height: 80px;
-          }
-          </style>
-    </head>
-    <body>
-        <header>
-            
-            <h1>Padaria- Doce Sabor.</h1>
-            <h3>Sabores maravilhosos para todos os gostos. 🥮🧁🍰</h3>
-        </header>
-        <main>
-            <img src="padaria imagem.png" alt=""Logotipo redondo de uma padaria digital com fundo bege. À esquerda, uma padeira sorridente vestindo chapéu de chef e avental branco segura uma bandeja com um pão caseiro dourado e quentinho. Ao fundo, uma charmosa barraca de padaria com toldo listrado em azul e branco, exibindo um pequeno bolo e um tablet que mostra um ícone de carrinho de compras."">
-            <h2>Meu primeiro post</h2>
-            <P>Por: Manoela Harumi </P>
-            <p>Bem-vindo a nossa Padaria! 🥐✨ 
-                É um prazer ter você por aqui. Aqui, cada pão é feito com carinho, ingredientes selecionados e aquele toque caseiro que lembra momentos especiais. Sinta o aroma fresco saindo do forno e descubra sabores que aquecem o coração.
-                Fique à vontade para explorar nosso site, conhecer nossas delícias e fazer parte da nossa mesa. Estamos felizes em adoçar o seu dia! 🍞😊
-            </main>
-          </p>
-    </body>
- </html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Sapatos</title>
+  <style>
+    header {
+      background-color: #D9A404;
+      color: #000000;
+      text-align: center;
+      padding: 20px;
+    }
+    main {
+      background-color: #000000;
+      color: #FFFFFF;
+      padding: 20px;
+    }
+    section {
+      margin: 20px 0;
+    }
+    h2 {
+      color: #D9A404;
+    }
+    .produtos {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .produto {
+      background-color: #1a1a1a;
+      border: 2px solid #D9A404;
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+      width: 200px;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    footer {
+      background-color: #D9A404;
+      color: #000000;
+      text-align: center;
+      padding: 16px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Loja de Sapatos Elegance</h1>
+    <h3>Estilo e conforto para seus pés 👟👠🥿</h3>
+  </header>
+  <main>
+    <section>
+      <h2>Nossos Produtos</h2>
+      <div class="produtos">
+        <div class="produto">
+          <img src="sapato_social.png" alt="Sapato Social">
+          <p>Sapato Social</p>
+          <p>R$ 199,90</p>
+        </div>
+        <div class="produto">
+          <img src="tenis_moderno.png" alt="Tênis Moderno">
+          <p>Tênis Moderno</p>
+          <p>R$ 249,90</p>
+        </div>
+        <div class="produto">
+          <img src="sandalia_feminina.png" alt="Sandália Feminina">
+          <p>Sandália Feminina</p>
+          <p>R$ 149,90</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>📍 Rua das Flores, 123 - Londrina/PR</p>
+    <p>📞 (43) 3333-4444</p>
+    <p>&copy; 2026 Loja de Sapatos Elegance</p>
+  </footer>
+</body>
+</html>
